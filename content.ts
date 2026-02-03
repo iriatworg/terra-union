@@ -185,7 +185,7 @@ export const siteContent = {
       link: ""
     },
     {
-      hidden: false, // 💡 將 hidden 改為 false 即可顯示在網頁上，改為 true 則隱藏。
+      hidden: true, // 💡 將 hidden 改為 false 即可顯示在網頁上，改為 true 則隱藏。
       date: "2024-08-12",
       source: "科技雜誌",
       image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=400",
