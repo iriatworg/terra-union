@@ -178,7 +178,7 @@ export const siteContent = {
     },
     {
       hidden: false, // 💡 將 hidden 改為 false 即可顯示在網頁上，改為 true 則隱藏。
-      date: "2024-10-20",
+      date: "2024-10-21",
       source: "經濟日報",
       image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=400",
       title: { 'zh-TW': '再森核技術引領減碳風潮，獲多項國際專利認證', 'zh-CN': '再森核技術引領減碳風潮，獲多項國際專利認證', 'en': 'ReForis Tech Leads Carbon Reduction Trend' },
