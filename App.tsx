@@ -228,7 +228,7 @@ const App: React.FC = () => {
 
                     {/* 💡 圖片版位：預留給您的 ESG 生態照片 */}
                     <div className="mt-32 max-w-6xl mx-auto">
-                       <div className="aspect-[21/9] rounded-[4rem] overflow-hidden shadow-2xl border-8 border-white bg-gray-100 group">
+                       <div className="aspect-square rounded-[4rem] overflow-hidden shadow-2xl border-8 border-white bg-gray-100 group">
                           <img 
                             src={(t.tech as any).esgSectionImage} 
                             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" 
@@ -504,9 +504,11 @@ const App: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 h-full flex justify-between items-center">
           <div className="flex items-center gap-3 cursor-pointer group" onClick={() => navigateTo('home')}>
             <div className="flex items-center gap-3">
-              <div className={`w-10 h-10 ${primaryBg} rounded-xl flex items-center justify-center text-white shadow-lg`}>
-                <i className="fas fa-leaf"></i>
-              </div>
+             <img 
+  src={assets.home.logo} 
+  className="h-10 w-auto object-contain" 
+  alt="logo" 
+/>
               <span className="text-xl font-black tracking-tighter">聚合創研 <span className={primaryColor}>TerraUnion</span></span>
             </div>
           </div>
