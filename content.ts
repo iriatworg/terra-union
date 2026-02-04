@@ -16,24 +16,24 @@ export const siteContent = {
   // 🖼️ 圖片資源管理
   assets: {
     home: {
-      logo: "", // ⬅️ 在這裡更換左上角的 LOGO 圖片路徑 (例如: "images/logo.png")
-      heroBg: "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&q=80&w=2000",
+      logo: "images/logo.png", // ⬅️ 在這裡更換左上角的 LOGO 圖片路徑 (例如: "images/logo.png")
+      heroBg: "images/home_banner.jpg",
       aboutIcon: "fa-rocket",
       techIcon: "fa-dna",
       esgIcon: "fa-network-wired"
     },
     banners: {
-      about: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=2000",
-      tech: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=2000",
-      apps: "https://images.unsplash.com/photo-1565891741441-6ad9652bb790?auto=format&fit=crop&q=80&w=2000",
-      park: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=2000",
-      news: "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80&w=2000",
-      media: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&q=80&w=2000",
-      contact: "https://images.unsplash.com/photo-1423666639041-f56000c27a9a?auto=format&fit=crop&q=80&w=2000",
+      about: "images/aboutme_banner.jpg",
+      tech: "images/technology_banner.jpg",
+      apps: "images/application_banner.jpg",
+      park: "images/factory_banner.jpg",
+      news: "images/news_banner.jpg",
+      media: "images/media_banner.jpg",
+      contact: "images/contact_banner.jpg",
     },
     pageImages: {
-      aboutSpirit: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1200",
-      aboutStory: "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&q=80&w=1200",
+      aboutSpirit: "images/aboutme_1.png",
+      aboutStory: "images/aboutme_2.png",
     }
   },
 
@@ -76,31 +76,31 @@ export const siteContent = {
       title: { 'zh-TW': '綠色物流與倉儲解決方案', 'zh-CN': '绿色物流与仓储解决方案', 'en': 'Green Logistics & Warehousing' },
       products: { 'zh-TW': '各式規格塑膠棧板（輕量化、高承重）、智慧倉儲周邊配件。', 'zh-CN': '各式规格塑料栈板（轻量化、高承重）、智慧仓储周边配件。', 'en': 'Plastic Pallets (Lightweight/High-load), Smart Warehousing Accessories.' },
       description: { 'zh-TW': '專為現代物流設計，提供高強度、可循環利用的倉儲基座，協助企業落實低碳供應鏈轉型。', 'zh-CN': '专为现代物流设计，提供高强度、可循环利用的仓储基座，协助企业落实低碳供应链转型。', 'en': 'Designed for modern logistics, providing high-strength recyclable bases for low-carbon transitions.' },
-      image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1200"
+      image: "images/application_1.jpg"
     },
     {
       title: { 'zh-TW': '汽車與移動交通應用', 'zh-CN': '汽車與 mobility 交通應用', 'en': 'Automotive & Mobility' },
       products: { 'zh-TW': '內外飾件、機能性車飾、耐候性車體零件。', 'zh-CN': '內外飾件、機能性車飾、耐候性車體零件。', 'en': 'Interior/Exterior Trim, Functional Decorations, Weatherproof Parts.' },
       description: { 'zh-TW': '提供符合車規標準的塑膠零組件，兼顧輕量化與美學設計，為現代交通工具提升能效與舒適度。', 'zh-CN': '提供符合車規標準的塑膠零組件，兼顧輕量化與美學設計，為現代交通工具提升能效與舒適度。', 'en': 'Automotive-grade plastic components balancing weight reduction and aesthetic design.' },
-      image: "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=1200"
+      image: "images/application_2.jpg"
     },
     {
       title: { 'zh-TW': '高階電子與科技零組件', 'zh-CN': '高階電子與科技零組件', 'en': 'High-end Electronics & Tech' },
       products: { 'zh-TW': '精密機能零件、抗靜電/導電特殊材料應用、電子產品機殼或結構件。', 'zh-CN': '精密機能零件、抗靜電/導電特殊材料應用、電子產品機殼或結構件。', 'en': 'Precision Functional Parts, Anti-static Materials, Electronic Enclosures.' },
       description: { 'zh-TW': '精準掌握微米級規格，為高科技產業提供具備優異絕緣、散熱或電磁屏蔽性能的塑膠關鍵零組件。', 'zh-CN': '精準掌握微米級規格，為高科技產業提供具備優異絕緣、散熱或電磁屏蔽性能的塑膠關鍵零組件。', 'en': 'Micron-level precision components providing insulation, heat dissipation, and shielding.' },
-      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200"
+      image: "images/application_3.jpg"
     },
     {
       title: { 'zh-TW': '複合材料與複材替代', 'zh-CN': '複合材料與複材替代', 'en': 'Composites & Substitutes' },
       products: { 'zh-TW': '高強度複合塑膠、長纖維強化熱塑材料 (CFRTP/LFRT) 應用。', 'zh-CN': '高強度複合塑膠、長纖維強化熱塑材料 (CFRTP/LFRT) 應用。', 'en': 'High-strength Composite Plastics, CFRTP/LFRT Applications.' },
       description: { 'zh-TW': '致力於研發高性能複合材料，提供足以取代玻璃纖維 (GFRP) 的輕量化方案，顯著降低加工成本並提升產品回收性。', 'zh-CN': '致力於研發高性能複合材料，提供足以取代玻璃纖維 (GFRP) 的輕量化方案，顯著降低加工成本並提升產品回收性。', 'en': 'High-performance composite materials providing lightweight alternatives to fiberglass.' },
-      image: "https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?q=80&w=1200"
+      image: "images/application_4.jpg"
     },
     {
       title: { 'zh-TW': '多元客製化塑膠製品', 'zh-CN': '多元客制化塑胶制品', 'en': 'Custom Plastic Solutions' },
       products: { 'zh-TW': '民生工業製品、品牌專屬塑料件、特殊機構件。', 'zh-CN': '民生工業製品、品牌專屬塑料件、特殊機構件。', 'en': 'Industrial Products, Branded Plastic Parts, Specialized Mechanisms.' },
       description: { 'zh-TW': '從設計到量產，我們提供全方位塑膠成型解決方案，根據客戶需求靈活調整配方，實現創意產品的商業化。', 'zh-CN': '從設計到量產，我們提供全方位塑膠成型解決方案，根據客戶需求靈活調整配方，實現創意產品的商業化。', 'en': 'Full-spectrum molding solutions with flexible formulas to commercialize creative ideas.' },
-      image: "https://images.unsplash.com/photo-1621905251918-48416bd8575a?q=80&w=1200"
+      image: "images/application_5.jpg"
     }
   ],
 
@@ -116,8 +116,8 @@ export const siteContent = {
         'en': 'Huizhou factory partnership for high-spec eco pallets.' 
       },
       images: [
-        "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800",
-        "https://images.unsplash.com/photo-1565608411388-e9301d014b75?q=80&w=800"
+        "images/factory_1.jpg",
+        "images/factory_banner.jpg"
       ]
     },
     {
@@ -152,7 +152,7 @@ export const siteContent = {
       link: "https://esg.businesstoday.com.tw/article/category/180687/post/202508070014"
     },
     {
-      hidden: false,
+      hidden: true,
       date: "2025-02-15",
       category: "ESG",
       image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1200",
@@ -177,7 +177,7 @@ export const siteContent = {
       link: "https://www.ctee.com.tw"
     },
     {
-      hidden: false, // 💡 將 hidden 改為 false 即可顯示在網頁上，改為 true 則隱藏。
+      hidden: true, // 💡 將 hidden 改為 false 即可顯示在網頁上，改為 true 則隱藏。
       date: "2024-10-20",
       source: "經濟日報",
       image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=400",
@@ -206,7 +206,7 @@ export const siteContent = {
       albumLabel: { 'zh-TW': '點此查看現場照片', 'zh-CN': '點此查看現場照片', 'en': 'Click for event photos' }
     },
     {
-      hidden: false, // 💡 將 hidden 改為 false 即可顯示在網頁上，改為 true 則隱藏。
+      hidden: true, // 💡 將 hidden 改為 false 即可顯示在網頁上，改為 true 則隱藏。
       date: "2024-03-25",
       title: { 'zh-TW': '循環經濟與永續發展高峰會', 'zh-CN': '循環經濟與永續發展高峰會', 'en': 'Circular Economy Summit' },
       description: { 'zh-TW': '參與國際高峰會討論，分享聚合創研如何將 ESG 數據與實體製造完美結合。', 'zh-CN': '參與國際高峰會討論，分享聚合創研如何將 ESG 數據與實體製造完美結合。', 'en': 'Sharing the fusion of ESG data and physical manufacturing.' },
@@ -215,7 +215,7 @@ export const siteContent = {
       albumLabel: { 'zh-TW': '大會花絮照片', 'zh-CN': '大會花絮照片', 'en': 'Event Gallery' }
     },
     {
-      hidden: false, // 💡 將 hidden 改為 false 即可顯示在網頁上，改為 true 則隱藏。
+      hidden: true, // 💡 將 hidden 改為 false 即可顯示在網頁上，改為 true 則隱藏。
       date: "2024-01-15",
       title: { 'zh-TW': '校園永續教育推廣活動', 'zh-CN': '校園永續教育推廣活動', 'en': 'Sustainable Education Outreach' },
       description: { 'zh-TW': '進入校園與年輕世代交流，推廣廢塑料分類與再利用的環保意識。', 'zh-CN': '進入校園與年輕世代交流，推廣廢塑料分類與再利用的環保意識。', 'en': 'Promoting recycling awareness to the younger generation.' },
@@ -309,7 +309,7 @@ export const siteContent = {
       }
     ],
     // 💡 此處為 ESG 生態照片預留版位，請在此行更換您的照片路徑
-    esgSectionImage: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1600"
+    esgSectionImage: "images/technology_1.jpg"
   },
 
   // 🏢 關於我們詳細內容
