@@ -79,27 +79,27 @@ export const siteContent = {
       image: "images/application_1.jpg"
     },
     {
-      title: { 'zh-TW': '汽車與移動交通應用', 'zh-CN': '汽車與 mobility 交通應用', 'en': 'Automotive & Mobility' },
-      products: { 'zh-TW': '內外飾件、機能性車飾、耐候性車體零件。', 'zh-CN': '內外飾件、機能性車飾、耐候性車體零件。', 'en': 'Interior/Exterior Trim, Functional Decorations, Weatherproof Parts.' },
-      description: { 'zh-TW': '提供符合車規標準的塑膠零組件，兼顧輕量化與美學設計，為現代交通工具提升能效與舒適度。', 'zh-CN': '提供符合車規標準的塑膠零組件，兼顧輕量化與美學設計，為現代交通工具提升能效與舒適度。', 'en': 'Automotive-grade plastic components balancing weight reduction and aesthetic design.' },
+      title: { 'zh-TW': '汽車與移動交通應用', 'zh-CN': '汽车与交通运输应用', 'en': 'Automotive & Mobility' },
+      products: { 'zh-TW': '內外飾件、機能性車飾、耐候性車體零件。', 'zh-CN': '内外饰件、功能性饰件、耐候性车身零件', 'en': 'Interior/Exterior Trim, Functional Decorations, Weatherproof Parts.' },
+      description: { 'zh-TW': '提供符合車規標準的塑膠零組件，兼顧輕量化與美學設計，為現代交通工具提升能效與舒適度。', 'zh-CN': '提供符合车规标准的塑料零组件，兼顾轻量化与美学设计，为现代交通工具提升能效与舒适度。', 'en': 'Automotive-grade plastic components balancing weight reduction and aesthetic design.' },
       image: "images/application_2.jpg"
     },
     {
-      title: { 'zh-TW': '高階電子與科技零組件', 'zh-CN': '高階電子與科技零組件', 'en': 'High-end Electronics & Tech' },
-      products: { 'zh-TW': '精密機能零件、抗靜電/導電特殊材料應用、電子產品機殼或結構件。', 'zh-CN': '精密機能零件、抗靜電/導電特殊材料應用、電子產品機殼或結構件。', 'en': 'Precision Functional Parts, Anti-static Materials, Electronic Enclosures.' },
-      description: { 'zh-TW': '精準掌握微米級規格，為高科技產業提供具備優異絕緣、散熱或電磁屏蔽性能的塑膠關鍵零組件。', 'zh-CN': '精準掌握微米級規格，為高科技產業提供具備優異絕緣、散熱或電磁屏蔽性能的塑膠關鍵零組件。', 'en': 'Micron-level precision components providing insulation, heat dissipation, and shielding.' },
+      title: { 'zh-TW': '高階電子與科技零組件', 'zh-CN': '高端电子与科技元器件', 'en': 'High-end Electronics & Tech' },
+      products: { 'zh-TW': '精密機能零件、抗靜電/導電特殊材料應用、電子產品機殼或結構件。', 'zh-CN': '精密功能零件、抗静电/导电特殊材料应用、电子产品机壳或结构件。', 'en': 'Precision Functional Parts, Anti-static Materials, Electronic Enclosures.' },
+      description: { 'zh-TW': '精準掌握微米級規格，為高科技產業提供具備優異絕緣、散熱或電磁屏蔽性能的塑膠關鍵零組件。', 'zh-CN': '精准掌握微米级规格，为高科技产业提供具备优异绝缘、散热或电磁屏蔽性能的塑料关键零部件。', 'en': 'Micron-level precision components providing insulation, heat dissipation, and shielding.' },
       image: "images/application_3.jpg"
     },
     {
-      title: { 'zh-TW': '複合材料與複材替代', 'zh-CN': '複合材料與複材替代', 'en': 'Composites & Substitutes' },
-      products: { 'zh-TW': '高強度複合塑膠、長纖維強化熱塑材料 (CFRTP/LFRT) 應用。', 'zh-CN': '高強度複合塑膠、長纖維強化熱塑材料 (CFRTP/LFRT) 應用。', 'en': 'High-strength Composite Plastics, CFRTP/LFRT Applications.' },
-      description: { 'zh-TW': '致力於研發高性能複合材料，提供足以取代玻璃纖維 (GFRP) 的輕量化方案，顯著降低加工成本並提升產品回收性。', 'zh-CN': '致力於研發高性能複合材料，提供足以取代玻璃纖維 (GFRP) 的輕量化方案，顯著降低加工成本並提升產品回收性。', 'en': 'High-performance composite materials providing lightweight alternatives to fiberglass.' },
+      title: { 'zh-TW': '複合材料與複材替代', 'zh-CN': '复合材料与复材替代', 'en': 'Composites & Substitutes' },
+      products: { 'zh-TW': '高強度複合塑膠、長纖維強化熱塑材料 (CFRTP/LFRT) 應用。', 'zh-CN': '高强度复合塑料、长纤维增强热塑性材料 (CFRTP/LFRT) 应用。', 'en': 'High-strength Composite Plastics, CFRTP/LFRT Applications.' },
+      description: { 'zh-TW': '致力於研發高性能複合材料，提供足以取代玻璃纖維 (GFRP) 的輕量化方案，顯著降低加工成本並提升產品回收性。', 'zh-CN': '致力于研发高性能复合材料，提供足以替代玻璃纤维 (GFRP) 的轻量化方案，显著降低加工成本并提升产品的可回收性。', 'en': 'High-performance composite materials providing lightweight alternatives to fiberglass.' },
       image: "images/application_4.jpg"
     },
     {
-      title: { 'zh-TW': '多元客製化塑膠製品', 'zh-CN': '多元客制化塑胶制品', 'en': 'Custom Plastic Solutions' },
-      products: { 'zh-TW': '民生工業製品、品牌專屬塑料件、特殊機構件。', 'zh-CN': '民生工業製品、品牌專屬塑料件、特殊機構件。', 'en': 'Industrial Products, Branded Plastic Parts, Specialized Mechanisms.' },
-      description: { 'zh-TW': '從設計到量產，我們提供全方位塑膠成型解決方案，根據客戶需求靈活調整配方，實現創意產品的商業化。', 'zh-CN': '從設計到量產，我們提供全方位塑膠成型解決方案，根據客戶需求靈活調整配方，實現創意產品的商業化。', 'en': 'Full-spectrum molding solutions with flexible formulas to commercialize creative ideas.' },
+      title: { 'zh-TW': '多元客製化塑膠製品', 'zh-CN': '多元化定制塑料制品', 'en': 'Custom Plastic Solutions' },
+      products: { 'zh-TW': '民生工業製品、品牌專屬塑料件、特殊機構件。', 'zh-CN': '轻工业制品、品牌专属塑料件、特殊结构件。', 'en': 'Industrial Products, Branded Plastic Parts, Specialized Mechanisms.' },
+      description: { 'zh-TW': '從設計到量產，我們提供全方位塑膠成型解決方案，根據客戶需求靈活調整配方，實現創意產品的商業化。', 'zh-CN': '从设计到量产，我们提供一站式塑料成型解决方案，根据客户需求灵活调整配方，助力创意产品的商业化落地。', 'en': 'Full-spectrum molding solutions with flexible formulas to commercialize creative ideas.' },
       image: "images/application_5.jpg"
     }
   ],
@@ -112,7 +112,7 @@ export const siteContent = {
       title: { 'zh-TW': '惠州合作工廠', 'zh-CN': '惠州合作工厂', 'en': 'Huizhou Factory' },
       description: { 
         'zh-TW': '聚合與惠州合作工廠共同建置聚合再生棧板/托盤產線，生產高規格科技業環保棧板。', 
-        'zh-CN': '聚合與惠州合作工廠共同建置聚合再生棧板/托盤產線，生產高規格科技業環保棧板。', 
+        'zh-CN': '聚合与惠州合作工厂共同建设聚合再生托盘产线，生产专供科技行业的高规格环保托盘。', 
         'en': 'Huizhou factory partnership for high-spec eco pallets.' 
       },
       images: [
@@ -139,7 +139,7 @@ export const siteContent = {
   // 📰 最新消息 (恢復完整範例)
   newsList: [
     {
-      hidden: false,
+      hidden: true, // 💡 將 hidden 改為 false 即可顯示在網頁上，改為 true 則隱藏。
       date: "2025-03-01",
       category: "Tech",
       image: "https://images.unsplash.com/photo-1532094349884-543bc11b234d?q=80&w=1200",
@@ -152,7 +152,7 @@ export const siteContent = {
       link: "https://esg.businesstoday.com.tw/article/category/180687/post/202508070014"
     },
     {
-      hidden: true,
+      hidden: true, // 💡 將 hidden 改為 false 即可顯示在網頁上，改為 true 則隱藏。
       date: "2025-02-15",
       category: "ESG",
       image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1200",
@@ -169,7 +169,7 @@ export const siteContent = {
   // 🎬 媒體專區
   mediaNews: [
     {
-      hidden: false, // 💡 將 hidden 改為 false 即可顯示在網頁上，改為 true 則隱藏。
+      hidden: true, // 💡 將 hidden 改為 false 即可顯示在網頁上，改為 true 則隱藏。
       date: "2024-12-05",
       source: "工商時報",
       image: "https://images.unsplash.com/photo-1585829365234-781f8c42078a?q=80&w=400",
@@ -195,7 +195,7 @@ export const siteContent = {
   ],
   mediaEvents: [
     {
-      hidden: false, // 💡 將 hidden 改為 false 即可顯示在網頁上，改為 true 則隱藏。
+      hidden: true, // 💡 將 hidden 改為 false 即可顯示在網頁上，改為 true 則隱藏。
       date: "2024-05-10",
       title: { 'zh-TW': '2024 年度技術發表研討會', 'zh-CN': '2024 年度技術發表研討會', 'en': '2024 Tech Launch Seminar' },
       description: { 'zh-TW': '現場展示多款再森核回收產品，吸引國內外專家關注。', 'zh-CN': '現場展示多款再森核回收產品，吸引國內外專家關注。', 'en': 'Showcasing ReForis products to global experts.' },
@@ -228,7 +228,7 @@ export const siteContent = {
 
   // 🔬 核心技術詳細內容
   tech: {
-    bannerSubtitle: { 'zh-TW': '深耕材料科技與數據管理，驅動企業永續轉型。', 'zh-CN': '深耕材料科技與數據管理，驅動企業永續轉型。', 'en': 'Driving transformation through material science and data.' },
+    bannerSubtitle: { 'zh-TW': '深耕材料科技與數據管理，驅動企業永續轉型。', 'zh-CN': '深耕材料科技与数据管理，驱动企业可持续转型。', 'en': 'Driving transformation through material science and data.' },
     tabReForis: { 'zh-TW': '再森核材料科技', 'zh-CN': '再森核材料科技', 'en': 'ReForis Material Tech' },
     tabESG: { 'zh-TW': 'ESG 智能平台系統', 'zh-CN': 'ESG 智能平台系统', 'en': 'ESG Smart Platform' },
     introTitle: { 'zh-TW': '再森核材料科技', 'zh-CN': '再森核材料科技', 'en': 'ReForis Material Technology' },
