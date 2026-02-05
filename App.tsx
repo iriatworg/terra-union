@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useState, useEffect  } from 'react';
 import { translations } from './translations';
 import { siteContent } from './content';
 import { Language } from './types';
@@ -9,13 +9,22 @@ type TechTab = 'reforis' | 'esg';
 
 const App: React.FC = () => {
   const [lang, setLang] = useState<Language>('zh-TW');
-  const [currentPage, setCurrentPage] = useState<Page>('home');
+  const [currentPage, setCurrentPage] = useState<Page>(window.location.pathname.replace('/', '') || 'home');
   const [selectedParkId, setSelectedParkId] = useState<string | null>(null);
   const [activeTechTab, setActiveTechTab] = useState<TechTab>('reforis');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeMediaTab, setActiveMediaTab] = useState<'news' | 'events'>('news');
   const [showLegal, setShowLegal] = useState<{ show: boolean, type: 'privacy' | 'terms' }>({ show: false, type: 'privacy' });
   
+  React.useEffect(() => {
+  const handlePopState = () => {
+    const path = window.location.pathname.replace('/', '') || 'home';
+    setCurrentPage(path);
+  };
+
+  window.addEventListener('popstate', handlePopState); // 開始聽
+  return () => window.removeEventListener('popstate', handlePopState); // 離開時停止聽
+}, []);
   const t = translations[lang];
   const assets = siteContent.assets;
 
@@ -26,11 +35,13 @@ const App: React.FC = () => {
   };
 
   const navigateTo = (page: Page) => {
-    setCurrentPage(page);
-    setSelectedParkId(null);
-    window.scrollTo(0, 0);
-    setIsMenuOpen(false);
-  };
+    window.history.pushState(null, '', '/' + (page === 'home' ? '' : page));
+  
+  setCurrentPage(page);
+  setSelectedParkId(null);
+  window.scrollTo(0, 0);
+  setIsMenuOpen(false);
+};
 
   const primaryColor = 'text-[#708238]';
   const primaryBg = 'bg-[#708238]';
