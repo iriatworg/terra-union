@@ -317,13 +317,13 @@ export const siteContent = {
     spiritTitle: { 'zh-TW': '企業精神', 'zh-CN': '企业精神', 'en': 'Corporate Spirit' },
     spiritContent: { 
       'zh-TW': '聚合創研是一家結合材料科技、循環製造、碳數據管理與城市級循環經濟建置的系統整合公司。\n以「再森核材料科技」與「ESG智能平台系統」為核心，我們打造可複製、可擴張、可量化的低碳循環生產模式，協助工廠升級、品牌減碳、政府推動城市循環經濟。\n我們相信：循環材料、智能數據與城市產業升級，必須被整合為同一套系統，而不是分散的個別專案。', 
-      'zh-CN': '聚合创研是一家结合材料科技、循环制造、碳数据管理与城市级循环经济建置的系统整合公司。\n以「再森核材料科技」与「ESG智能平台系统」为核心，我们打造可复制、可扩张、可量化的低碳 circular 生产模式，協助工厂升级、品牌减碳、政府推动城市循环经济。\n我们相信：循环材料、智能数据与城市产业升级，必须被整合为同一套系统，而不是分散的個別专案。', 
+      'zh-CN': '聚合创研是一家结合材料科技、循环制造、碳数据管理与城市级循环经济建设的系统整合公司。\n以“再森核材料科技”与“ESG智能平台系统”为核心，我们打造可复制、可扩展、可量化的低碳循环生产模式，协助工厂升级、品牌减碳、政府推动城市循环经济。\n我们相信：循环材料、智能数据与城市产业升级，必须被整合为同一套系统，而不是分散的个别项目。', 
       'en': 'TerraUnion is a system integration company combining material technology, circular manufacturing, carbon data management, and urban-level circular economy construction.\nWith "ReForis Material Technology" and "ESG Intelligent Platform System" as its core, we create reproducible, expandable, and quantifiable low-carbon circular production models, helping factories upgrade, brands reduce carbon, and governments promote urban circular economy.\nWe believe that circular materials, intelligent data, and urban industrial upgrading must be integrated into the same system, rather than fragmented individual projects.' 
     },
     storyTitle: { 'zh-TW': '企業故事', 'zh-CN': '企业故事', 'en': 'Our Story' },
     storyContent: { 
       'zh-TW': '聚合創研成立的初衷，是為了解決全球面臨的三大問題：\n1.廢塑料無法有效回收與再利用\n2.企業與城市在減碳與 ESG 上缺乏真實數據\n3.循環經濟缺乏實際可落地的商業模式\n我們以材料科技為起點，並向上整合產線、向下整合碳數據，同時跨界政府、市場與企業，讓「循環經濟」不再停留在概念，而是成為每一座城市都能複製的產業。', 
-      'zh-CN': '聚合创研成立的初衷，是为了解决全球面临的三大问题：\n1.废塑料无法有效回收与再利用\n2.企业与城市在减碳与 ESG 上缺乏真实数据\n3.循环经济缺乏实际可落地的商业模式\n我们以材料科技为起点，并向上整合产线、向下整合碳数据，同时跨界 government、市场与企业，让「循环经济」不再停留在概念，而是成为每一座城市都能复制的產業。', 
+      'zh-CN': '聚合创研成立的初衷，是为了解决全球面临的三大难题：\n1. 废弃塑料无法实现有效回收与高值化利用\n2.企业与城市在减碳与 ESG 领域缺乏真实有效的数据支撑\n3.循环经济缺乏实际可落地的商业闭环。\n我们以材料科技为起点，向上整合产线，向下打通碳数据，同时联动政府、市场与企业，让“循环经济”不再停留于概念，而是成为每一座城市都能复制的产业。', 
       'en': 'TerraUnion was founded to solve three major global challenges:\n1. Waste plastics cannot be effectively recycled and reused.\n2. Enterprises and cities lack real data on carbon reduction and ESG.\n3. Circular economy lacks practical, implementable business models.\nStarting from material technology, we integrate production lines upwards and carbon data downwards, crossing boundaries between government, markets, and enterprises, making "circular economy" a replicable industry for every city.' 
     }
   },
@@ -334,12 +334,12 @@ export const siteContent = {
     terms: { 'zh-TW': '法律條款', 'zh-CN': '法律条款', 'en': 'Terms of Service' },
     privacyContent: {
       'zh-TW': '聚合創研（下稱本公司）重視您的隱私。我們承諾絕不向未經授權之第三方外洩、租借或出售您的個人數據。',
-      'zh-CN': '聚合創研（下稱本公司）重視您的隱私。我們承諾絕不向未經授權之第三方外洩、租借或出售您的個人數據。',
+      'zh-CN': '聚合创研（以下简称“本公司”）重视您的隐私。我们承诺绝不向未经授权的第三方泄露、出租或出售您的个人信息。',
       'en': 'TerraUnion respects your privacy. We promise never to leak personal data to unauthorized third parties.'
     },
     termsContent: {
       'zh-TW': '本網站所有內容，其版權及知識產權均屬聚合創研有限公司所有。未經書面授權嚴禁轉載。',
-      'zh-CN': '本網站所有內容，其版權及知識產權均屬聚合創研有限公司所有。未經書面授權嚴禁轉載。',
+      'zh-CN': '本网站所有内容，其版权及知识产权均属聚合创研有限公司所有。未经书面授权，严禁转载。',
       'en': 'All content on this website is the intellectual property of TerraUnion Co., Ltd.'
     }
   },
