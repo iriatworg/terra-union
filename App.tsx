@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useState, useEffect  } from 'react';
 import { translations } from './translations';
 import { siteContent } from './content';
 import { Language } from './types';
@@ -9,13 +9,22 @@ type TechTab = 'reforis' | 'esg';
 
 const App: React.FC = () => {
   const [lang, setLang] = useState<Language>('zh-TW');
-  const [currentPage, setCurrentPage] = useState<Page>('home');
+  const [currentPage, setCurrentPage] = useState<Page>(window.location.pathname.replace('/', '') || 'home');
   const [selectedParkId, setSelectedParkId] = useState<string | null>(null);
   const [activeTechTab, setActiveTechTab] = useState<TechTab>('reforis');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeMediaTab, setActiveMediaTab] = useState<'news' | 'events'>('news');
   const [showLegal, setShowLegal] = useState<{ show: boolean, type: 'privacy' | 'terms' }>({ show: false, type: 'privacy' });
   
+  React.useEffect(() => {
+  const handlePopState = () => {
+    const path = window.location.pathname.replace('/', '') || 'home';
+    setCurrentPage(path);
+  };
+
+  window.addEventListener('popstate', handlePopState); // 開始聽
+  return () => window.removeEventListener('popstate', handlePopState); // 離開時停止聽
+}, []);
   const t = translations[lang];
   const assets = siteContent.assets;
 
@@ -26,11 +35,13 @@ const App: React.FC = () => {
   };
 
   const navigateTo = (page: Page) => {
-    setCurrentPage(page);
-    setSelectedParkId(null);
-    window.scrollTo(0, 0);
-    setIsMenuOpen(false);
-  };
+    window.history.pushState(null, '', '/' + (page === 'home' ? '' : page));
+  
+  setCurrentPage(page);
+  setSelectedParkId(null);
+  window.scrollTo(0, 0);
+  setIsMenuOpen(false);
+};
 
   const primaryColor = 'text-[#708238]';
   const primaryBg = 'bg-[#708238]';
@@ -228,7 +239,7 @@ const App: React.FC = () => {
 
                     {/* 💡 圖片版位：預留給您的 ESG 生態照片 */}
                     <div className="mt-32 max-w-6xl mx-auto">
-                       <div className="aspect-[21/9] rounded-[4rem] overflow-hidden shadow-2xl border-8 border-white bg-gray-100 group">
+                       <div className="aspect-square rounded-[4rem] overflow-hidden shadow-2xl border-8 border-white bg-gray-100 group">
                           <img 
                             src={(t.tech as any).esgSectionImage} 
                             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" 
@@ -504,9 +515,11 @@ const App: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 h-full flex justify-between items-center">
           <div className="flex items-center gap-3 cursor-pointer group" onClick={() => navigateTo('home')}>
             <div className="flex items-center gap-3">
-              <div className={`w-10 h-10 ${primaryBg} rounded-xl flex items-center justify-center text-white shadow-lg`}>
-                <i className="fas fa-leaf"></i>
-              </div>
+             <img 
+  src={assets.home.logo} 
+  className="h-10 w-auto object-contain" 
+  alt="logo" 
+/>
               <span className="text-xl font-black tracking-tighter">聚合創研 <span className={primaryColor}>TerraUnion</span></span>
             </div>
           </div>
