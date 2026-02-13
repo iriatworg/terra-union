@@ -338,7 +338,7 @@ export const siteContent = {
       'en': 'TerraUnion respects your privacy. We promise never to leak personal data to unauthorized third parties.'
     },
     termsContent: {
-      'zh-TW': '本網站所有內容，其版權及知識產權均屬聚合創研有限公司所有。未經書面授權嚴禁轉載。',
+      'zh-TW': '本網站所有內容，其版權及知識產權均屬聚合創研有限公司所有。未經書面授權，嚴禁轉載。',
       'zh-CN': '本网站所有内容，其版权及知识产权均属聚合创研有限公司所有。未经书面授权，严禁转载。',
       'en': 'All content on this website is the intellectual property of TerraUnion Co., Ltd.'
     }
