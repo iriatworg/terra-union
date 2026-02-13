@@ -16,24 +16,24 @@ export const siteContent = {
   // 🖼️ 圖片資源管理
   assets: {
     home: {
-      logo: "", // ⬅️ 在這裡更換左上角的 LOGO 圖片路徑 (例如: "images/logo.png")
-      heroBg: "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&q=80&w=2000",
+      logo: "images/logo.png", // ⬅️ 在這裡更換左上角的 LOGO 圖片路徑 (例如: "images/logo.png")
+      heroBg: "images/home_banner.jpg",
       aboutIcon: "fa-rocket",
       techIcon: "fa-dna",
       esgIcon: "fa-network-wired"
     },
     banners: {
-      about: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=2000",
-      tech: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=2000",
-      apps: "https://images.unsplash.com/photo-1565891741441-6ad9652bb790?auto=format&fit=crop&q=80&w=2000",
-      park: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=2000",
-      news: "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80&w=2000",
-      media: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&q=80&w=2000",
-      contact: "https://images.unsplash.com/photo-1423666639041-f56000c27a9a?auto=format&fit=crop&q=80&w=2000",
+      about: "images/aboutme_banner.jpg",
+      tech: "images/technology_banner.jpg",
+      apps: "images/application_banner.jpg",
+      park: "images/factory_banner.jpg",
+      news: "images/news_banner.jpg",
+      media: "images/media_banner.jpg",
+      contact: "images/contact_banner.jpg",
     },
     pageImages: {
-      aboutSpirit: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1200",
-      aboutStory: "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&q=80&w=1200",
+      aboutSpirit: "images/aboutme_1.png",
+      aboutStory: "images/aboutme_2.png",
     }
   },
 
@@ -76,31 +76,31 @@ export const siteContent = {
       title: { 'zh-TW': '綠色物流與倉儲解決方案', 'zh-CN': '绿色物流与仓储解决方案', 'en': 'Green Logistics & Warehousing' },
       products: { 'zh-TW': '各式規格塑膠棧板（輕量化、高承重）、智慧倉儲周邊配件。', 'zh-CN': '各式规格塑料栈板（轻量化、高承重）、智慧仓储周边配件。', 'en': 'Plastic Pallets (Lightweight/High-load), Smart Warehousing Accessories.' },
       description: { 'zh-TW': '專為現代物流設計，提供高強度、可循環利用的倉儲基座，協助企業落實低碳供應鏈轉型。', 'zh-CN': '专为现代物流设计，提供高强度、可循环利用的仓储基座，协助企业落实低碳供应链转型。', 'en': 'Designed for modern logistics, providing high-strength recyclable bases for low-carbon transitions.' },
-      image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1200"
+      image: "images/application_1.jpg"
     },
     {
-      title: { 'zh-TW': '汽車與移動交通應用', 'zh-CN': '汽車與 mobility 交通應用', 'en': 'Automotive & Mobility' },
-      products: { 'zh-TW': '內外飾件、機能性車飾、耐候性車體零件。', 'zh-CN': '內外飾件、機能性車飾、耐候性車體零件。', 'en': 'Interior/Exterior Trim, Functional Decorations, Weatherproof Parts.' },
-      description: { 'zh-TW': '提供符合車規標準的塑膠零組件，兼顧輕量化與美學設計，為現代交通工具提升能效與舒適度。', 'zh-CN': '提供符合車規標準的塑膠零組件，兼顧輕量化與美學設計，為現代交通工具提升能效與舒適度。', 'en': 'Automotive-grade plastic components balancing weight reduction and aesthetic design.' },
-      image: "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=1200"
+      title: { 'zh-TW': '汽車與移動交通應用', 'zh-CN': '汽车与交通运输应用', 'en': 'Automotive & Mobility' },
+      products: { 'zh-TW': '內外飾件、機能性車飾、耐候性車體零件。', 'zh-CN': '内外饰件、功能性饰件、耐候性车身零件', 'en': 'Interior/Exterior Trim, Functional Decorations, Weatherproof Parts.' },
+      description: { 'zh-TW': '提供符合車規標準的塑膠零組件，兼顧輕量化與美學設計，為現代交通工具提升能效與舒適度。', 'zh-CN': '提供符合车规标准的塑料零组件，兼顾轻量化与美学设计，为现代交通工具提升能效与舒适度。', 'en': 'Automotive-grade plastic components balancing weight reduction and aesthetic design.' },
+      image: "images/application_2.jpg"
     },
     {
-      title: { 'zh-TW': '高階電子與科技零組件', 'zh-CN': '高階電子與科技零組件', 'en': 'High-end Electronics & Tech' },
-      products: { 'zh-TW': '精密機能零件、抗靜電/導電特殊材料應用、電子產品機殼或結構件。', 'zh-CN': '精密機能零件、抗靜電/導電特殊材料應用、電子產品機殼或結構件。', 'en': 'Precision Functional Parts, Anti-static Materials, Electronic Enclosures.' },
-      description: { 'zh-TW': '精準掌握微米級規格，為高科技產業提供具備優異絕緣、散熱或電磁屏蔽性能的塑膠關鍵零組件。', 'zh-CN': '精準掌握微米級規格，為高科技產業提供具備優異絕緣、散熱或電磁屏蔽性能的塑膠關鍵零組件。', 'en': 'Micron-level precision components providing insulation, heat dissipation, and shielding.' },
-      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200"
+      title: { 'zh-TW': '高階電子與科技零組件', 'zh-CN': '高端电子与科技元器件', 'en': 'High-end Electronics & Tech' },
+      products: { 'zh-TW': '精密機能零件、抗靜電/導電特殊材料應用、電子產品機殼或結構件。', 'zh-CN': '精密功能零件、抗静电/导电特殊材料应用、电子产品机壳或结构件。', 'en': 'Precision Functional Parts, Anti-static Materials, Electronic Enclosures.' },
+      description: { 'zh-TW': '精準掌握微米級規格，為高科技產業提供具備優異絕緣、散熱或電磁屏蔽性能的塑膠關鍵零組件。', 'zh-CN': '精准掌握微米级规格，为高科技产业提供具备优异绝缘、散热或电磁屏蔽性能的塑料关键零部件。', 'en': 'Micron-level precision components providing insulation, heat dissipation, and shielding.' },
+      image: "images/application_3.jpg"
     },
     {
-      title: { 'zh-TW': '複合材料與複材替代', 'zh-CN': '複合材料與複材替代', 'en': 'Composites & Substitutes' },
-      products: { 'zh-TW': '高強度複合塑膠、長纖維強化熱塑材料 (CFRTP/LFRT) 應用。', 'zh-CN': '高強度複合塑膠、長纖維強化熱塑材料 (CFRTP/LFRT) 應用。', 'en': 'High-strength Composite Plastics, CFRTP/LFRT Applications.' },
-      description: { 'zh-TW': '致力於研發高性能複合材料，提供足以取代玻璃纖維 (GFRP) 的輕量化方案，顯著降低加工成本並提升產品回收性。', 'zh-CN': '致力於研發高性能複合材料，提供足以取代玻璃纖維 (GFRP) 的輕量化方案，顯著降低加工成本並提升產品回收性。', 'en': 'High-performance composite materials providing lightweight alternatives to fiberglass.' },
-      image: "https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?q=80&w=1200"
+      title: { 'zh-TW': '複合材料與複材替代', 'zh-CN': '复合材料与复材替代', 'en': 'Composites & Substitutes' },
+      products: { 'zh-TW': '高強度複合塑膠、長纖維強化熱塑材料 (CFRTP/LFRT) 應用。', 'zh-CN': '高强度复合塑料、长纤维增强热塑性材料 (CFRTP/LFRT) 应用。', 'en': 'High-strength Composite Plastics, CFRTP/LFRT Applications.' },
+      description: { 'zh-TW': '致力於研發高性能複合材料，提供足以取代玻璃纖維 (GFRP) 的輕量化方案，顯著降低加工成本並提升產品回收性。', 'zh-CN': '致力于研发高性能复合材料，提供足以替代玻璃纤维 (GFRP) 的轻量化方案，显著降低加工成本并提升产品的可回收性。', 'en': 'High-performance composite materials providing lightweight alternatives to fiberglass.' },
+      image: "images/application_4.jpg"
     },
     {
-      title: { 'zh-TW': '多元客製化塑膠製品', 'zh-CN': '多元客制化塑胶制品', 'en': 'Custom Plastic Solutions' },
-      products: { 'zh-TW': '民生工業製品、品牌專屬塑料件、特殊機構件。', 'zh-CN': '民生工業製品、品牌專屬塑料件、特殊機構件。', 'en': 'Industrial Products, Branded Plastic Parts, Specialized Mechanisms.' },
-      description: { 'zh-TW': '從設計到量產，我們提供全方位塑膠成型解決方案，根據客戶需求靈活調整配方，實現創意產品的商業化。', 'zh-CN': '從設計到量產，我們提供全方位塑膠成型解決方案，根據客戶需求靈活調整配方，實現創意產品的商業化。', 'en': 'Full-spectrum molding solutions with flexible formulas to commercialize creative ideas.' },
-      image: "https://images.unsplash.com/photo-1621905251918-48416bd8575a?q=80&w=1200"
+      title: { 'zh-TW': '多元客製化塑膠製品', 'zh-CN': '多元化定制塑料制品', 'en': 'Custom Plastic Solutions' },
+      products: { 'zh-TW': '民生工業製品、品牌專屬塑料件、特殊機構件。', 'zh-CN': '轻工业制品、品牌专属塑料件、特殊结构件。', 'en': 'Industrial Products, Branded Plastic Parts, Specialized Mechanisms.' },
+      description: { 'zh-TW': '從設計到量產，我們提供全方位塑膠成型解決方案，根據客戶需求靈活調整配方，實現創意產品的商業化。', 'zh-CN': '从设计到量产，我们提供一站式塑料成型解决方案，根据客户需求灵活调整配方，助力创意产品的商业化落地。', 'en': 'Full-spectrum molding solutions with flexible formulas to commercialize creative ideas.' },
+      image: "images/application_5.jpg"
     }
   ],
 
@@ -112,12 +112,12 @@ export const siteContent = {
       title: { 'zh-TW': '惠州合作工廠', 'zh-CN': '惠州合作工厂', 'en': 'Huizhou Factory' },
       description: { 
         'zh-TW': '聚合與惠州合作工廠共同建置聚合再生棧板/托盤產線，生產高規格科技業環保棧板。', 
-        'zh-CN': '聚合與惠州合作工廠共同建置聚合再生棧板/托盤產線，生產高規格科技業環保棧板。', 
+        'zh-CN': '聚合与惠州合作工厂共同建设聚合再生托盘产线，生产专供科技行业的高规格环保托盘。', 
         'en': 'Huizhou factory partnership for high-spec eco pallets.' 
       },
       images: [
-        "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800",
-        "https://images.unsplash.com/photo-1565608411388-e9301d014b75?q=80&w=800"
+        "images/factory_1.jpg",
+        "images/factory_banner.jpg"
       ]
     },
     {
@@ -139,7 +139,7 @@ export const siteContent = {
   // 📰 最新消息 (恢復完整範例)
   newsList: [
     {
-      hidden: false,
+      hidden: true, // 💡 將 hidden 改為 false 即可顯示在網頁上，改為 true 則隱藏。
       date: "2025-03-01",
       category: "Tech",
       image: "https://images.unsplash.com/photo-1532094349884-543bc11b234d?q=80&w=1200",
@@ -152,7 +152,7 @@ export const siteContent = {
       link: "https://esg.businesstoday.com.tw/article/category/180687/post/202508070014"
     },
     {
-      hidden: false,
+      hidden: true, // 💡 將 hidden 改為 false 即可顯示在網頁上，改為 true 則隱藏。
       date: "2025-02-15",
       category: "ESG",
       image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1200",
@@ -169,7 +169,7 @@ export const siteContent = {
   // 🎬 媒體專區
   mediaNews: [
     {
-      hidden: false, // 💡 將 hidden 改為 false 即可顯示在網頁上，改為 true 則隱藏。
+      hidden: true, // 💡 將 hidden 改為 false 即可顯示在網頁上，改為 true 則隱藏。
       date: "2024-12-05",
       source: "工商時報",
       image: "https://images.unsplash.com/photo-1585829365234-781f8c42078a?q=80&w=400",
@@ -177,8 +177,8 @@ export const siteContent = {
       link: "https://www.ctee.com.tw"
     },
     {
-      hidden: false, // 💡 將 hidden 改為 false 即可顯示在網頁上，改為 true 則隱藏。
-      date: "2024-10-21",
+      hidden: true, // 💡 將 hidden 改為 false 即可顯示在網頁上，改為 true 則隱藏。
+      date: "2024-10-20",
       source: "經濟日報",
       image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=400",
       title: { 'zh-TW': '再森核技術引領減碳風潮，獲多項國際專利認證', 'zh-CN': '再森核技術引領減碳風潮，獲多項國際專利認證', 'en': 'ReForis Tech Leads Carbon Reduction Trend' },
@@ -195,7 +195,7 @@ export const siteContent = {
   ],
   mediaEvents: [
     {
-      hidden: false, // 💡 將 hidden 改為 false 即可顯示在網頁上，改為 true 則隱藏。
+      hidden: true, // 💡 將 hidden 改為 false 即可顯示在網頁上，改為 true 則隱藏。
       date: "2024-05-10",
       title: { 'zh-TW': '2024 年度技術發表研討會', 'zh-CN': '2024 年度技術發表研討會', 'en': '2024 Tech Launch Seminar' },
       description: { 'zh-TW': '現場展示多款再森核回收產品，吸引國內外專家關注。', 'zh-CN': '現場展示多款再森核回收產品，吸引國內外專家關注。', 'en': 'Showcasing ReForis products to global experts.' },
@@ -206,7 +206,7 @@ export const siteContent = {
       albumLabel: { 'zh-TW': '點此查看現場照片', 'zh-CN': '點此查看現場照片', 'en': 'Click for event photos' }
     },
     {
-      hidden: false, // 💡 將 hidden 改為 false 即可顯示在網頁上，改為 true 則隱藏。
+      hidden: true, // 💡 將 hidden 改為 false 即可顯示在網頁上，改為 true 則隱藏。
       date: "2024-03-25",
       title: { 'zh-TW': '循環經濟與永續發展高峰會', 'zh-CN': '循環經濟與永續發展高峰會', 'en': 'Circular Economy Summit' },
       description: { 'zh-TW': '參與國際高峰會討論，分享聚合創研如何將 ESG 數據與實體製造完美結合。', 'zh-CN': '參與國際高峰會討論，分享聚合創研如何將 ESG 數據與實體製造完美結合。', 'en': 'Sharing the fusion of ESG data and physical manufacturing.' },
@@ -215,7 +215,7 @@ export const siteContent = {
       albumLabel: { 'zh-TW': '大會花絮照片', 'zh-CN': '大會花絮照片', 'en': 'Event Gallery' }
     },
     {
-      hidden: false, // 💡 將 hidden 改為 false 即可顯示在網頁上，改為 true 則隱藏。
+      hidden: true, // 💡 將 hidden 改為 false 即可顯示在網頁上，改為 true 則隱藏。
       date: "2024-01-15",
       title: { 'zh-TW': '校園永續教育推廣活動', 'zh-CN': '校園永續教育推廣活動', 'en': 'Sustainable Education Outreach' },
       description: { 'zh-TW': '進入校園與年輕世代交流，推廣廢塑料分類與再利用的環保意識。', 'zh-CN': '進入校園與年輕世代交流，推廣廢塑料分類與再利用的環保意識。', 'en': 'Promoting recycling awareness to the younger generation.' },
@@ -228,7 +228,7 @@ export const siteContent = {
 
   // 🔬 核心技術詳細內容
   tech: {
-    bannerSubtitle: { 'zh-TW': '深耕材料科技與數據管理，驅動企業永續轉型。', 'zh-CN': '深耕材料科技與數據管理，驅動企業永續轉型。', 'en': 'Driving transformation through material science and data.' },
+    bannerSubtitle: { 'zh-TW': '深耕材料科技與數據管理，驅動企業永續轉型。', 'zh-CN': '深耕材料科技与数据管理，驱动企业可持续转型。', 'en': 'Driving transformation through material science and data.' },
     tabReForis: { 'zh-TW': '再森核材料科技', 'zh-CN': '再森核材料科技', 'en': 'ReForis Material Tech' },
     tabESG: { 'zh-TW': 'ESG 智能平台系統', 'zh-CN': 'ESG 智能平台系统', 'en': 'ESG Smart Platform' },
     introTitle: { 'zh-TW': '再森核材料科技', 'zh-CN': '再森核材料科技', 'en': 'ReForis Material Technology' },
@@ -309,7 +309,7 @@ export const siteContent = {
       }
     ],
     // 💡 此處為 ESG 生態照片預留版位，請在此行更換您的照片路徑
-    esgSectionImage: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1600"
+    esgSectionImage: "images/technology_1.jpg"
   },
 
   // 🏢 關於我們詳細內容
@@ -317,13 +317,13 @@ export const siteContent = {
     spiritTitle: { 'zh-TW': '企業精神', 'zh-CN': '企业精神', 'en': 'Corporate Spirit' },
     spiritContent: { 
       'zh-TW': '聚合創研是一家結合材料科技、循環製造、碳數據管理與城市級循環經濟建置的系統整合公司。\n以「再森核材料科技」與「ESG智能平台系統」為核心，我們打造可複製、可擴張、可量化的低碳循環生產模式，協助工廠升級、品牌減碳、政府推動城市循環經濟。\n我們相信：循環材料、智能數據與城市產業升級，必須被整合為同一套系統，而不是分散的個別專案。', 
-      'zh-CN': '聚合创研是一家结合材料科技、循环制造、碳数据管理与城市级循环经济建置的系统整合公司。\n以「再森核材料科技」与「ESG智能平台系统」为核心，我们打造可复制、可扩张、可量化的低碳 circular 生产模式，協助工厂升级、品牌减碳、政府推动城市循环经济。\n我们相信：循环材料、智能数据与城市产业升级，必须被整合为同一套系统，而不是分散的個別专案。', 
+      'zh-CN': '聚合创研是一家结合材料科技、循环制造、碳数据管理与城市级循环经济建设的系统整合公司。\n以“再森核材料科技”与“ESG智能平台系统”为核心，我们打造可复制、可扩展、可量化的低碳循环生产模式，协助工厂升级、品牌减碳、政府推动城市循环经济。\n我们相信：循环材料、智能数据与城市产业升级，必须被整合为同一套系统，而不是分散的个别项目。', 
       'en': 'TerraUnion is a system integration company combining material technology, circular manufacturing, carbon data management, and urban-level circular economy construction.\nWith "ReForis Material Technology" and "ESG Intelligent Platform System" as its core, we create reproducible, expandable, and quantifiable low-carbon circular production models, helping factories upgrade, brands reduce carbon, and governments promote urban circular economy.\nWe believe that circular materials, intelligent data, and urban industrial upgrading must be integrated into the same system, rather than fragmented individual projects.' 
     },
     storyTitle: { 'zh-TW': '企業故事', 'zh-CN': '企业故事', 'en': 'Our Story' },
     storyContent: { 
       'zh-TW': '聚合創研成立的初衷，是為了解決全球面臨的三大問題：\n1.廢塑料無法有效回收與再利用\n2.企業與城市在減碳與 ESG 上缺乏真實數據\n3.循環經濟缺乏實際可落地的商業模式\n我們以材料科技為起點，並向上整合產線、向下整合碳數據，同時跨界政府、市場與企業，讓「循環經濟」不再停留在概念，而是成為每一座城市都能複製的產業。', 
-      'zh-CN': '聚合创研成立的初衷，是为了解决全球面临的三大问题：\n1.废塑料无法有效回收与再利用\n2.企业与城市在减碳与 ESG 上缺乏真实数据\n3.循环经济缺乏实际可落地的商业模式\n我们以材料科技为起点，并向上整合产线、向下整合碳数据，同时跨界 government、市场与企业，让「循环经济」不再停留在概念，而是成为每一座城市都能复制的產業。', 
+      'zh-CN': '聚合创研成立的初衷，是为了解决全球面临的三大难题：\n1. 废弃塑料无法实现有效回收与高值化利用\n2.企业与城市在减碳与 ESG 领域缺乏真实有效的数据支撑\n3.循环经济缺乏实际可落地的商业闭环。\n我们以材料科技为起点，向上整合产线，向下打通碳数据，同时联动政府、市场与企业，让“循环经济”不再停留于概念，而是成为每一座城市都能复制的产业。', 
       'en': 'TerraUnion was founded to solve three major global challenges:\n1. Waste plastics cannot be effectively recycled and reused.\n2. Enterprises and cities lack real data on carbon reduction and ESG.\n3. Circular economy lacks practical, implementable business models.\nStarting from material technology, we integrate production lines upwards and carbon data downwards, crossing boundaries between government, markets, and enterprises, making "circular economy" a replicable industry for every city.' 
     }
   },
@@ -334,12 +334,12 @@ export const siteContent = {
     terms: { 'zh-TW': '法律條款', 'zh-CN': '法律条款', 'en': 'Terms of Service' },
     privacyContent: {
       'zh-TW': '聚合創研（下稱本公司）重視您的隱私。我們承諾絕不向未經授權之第三方外洩、租借或出售您的個人數據。',
-      'zh-CN': '聚合創研（下稱本公司）重視您的隱私。我們承諾絕不向未經授權之第三方外洩、租借或出售您的個人數據。',
+      'zh-CN': '聚合创研（以下简称“本公司”）重视您的隐私。我们承诺绝不向未经授权的第三方泄露、出租或出售您的个人信息。',
       'en': 'TerraUnion respects your privacy. We promise never to leak personal data to unauthorized third parties.'
     },
     termsContent: {
       'zh-TW': '本網站所有內容，其版權及知識產權均屬聚合創研有限公司所有。未經書面授權嚴禁轉載。',
-      'zh-CN': '本網站所有內容，其版權及知識產權均屬聚合創研有限公司所有。未經書面授權嚴禁轉載。',
+      'zh-CN': '本网站所有内容，其版权及知识产权均属聚合创研有限公司所有。未经书面授权，严禁转载。',
       'en': 'All content on this website is the intellectual property of TerraUnion Co., Ltd.'
     }
   },
