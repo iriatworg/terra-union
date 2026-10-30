@@ -27,6 +27,13 @@ const App: React.FC = () => {
 }, []);
   const t = translations[lang];
   const assets = siteContent.assets;
+// 自動更新瀏覽器分頁標題，讓 Google 知道現在是哪一頁
+  React.useEffect(() => {
+    const siteName = '聚合創研有限公司-官網';
+    const pageTitle = currentPage === 'home' ? '' : ` | ${(t.nav as any)[currentPage] || currentPage}`;
+    document.title = `${siteName}${pageTitle}`;
+  }, [currentPage, lang, t.nav]);
+
 
   const changeLanguage = (newLang: Language) => {
     setLang(newLang);
