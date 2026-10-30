@@ -8,4 +8,28 @@
     <loc>https://www.terra-union.com/about</loc>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://www.terra-union.com/tech</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.terra-union.com/apps</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.terra-union.com/park</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.terra-union.com/news</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.terra-union.com/media</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.terra-union.com/contact</loc>
+    <priority>0.8</priority>
+  </url>
 </urlset>
